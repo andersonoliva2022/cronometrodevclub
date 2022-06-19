@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+#degradecolor{
+    background: linear-gradient(
+  90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 9, 121, 1) 35%,
+  rgb(0, 92, 158) 90%
+);
+
+width: 100vw;
+height: 100vh;
+}
+
+img{
+    display: block;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#box-number{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding-left: 15px;
+    
+  
+    font-weight: bold;
+    font-size: 50px;
+    width: 400px;
+    margin-top: -140px;
+}
+.milesimo{
+    color: chartreuse;
+}
+
+.control{
+    
+    text-align: center;
+    margin-top: 20px;
+}
+ button{
+    color: rgb(3, 3, 109);
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 3px;
+ }
+
+ button:hover{
+    background-color: bisque;
+    box-shadow: 6px;
+ }
+#start:hover{
+    background-color: rgb(0, 243, 12);
+}
+#stop:hover{
+    background-color: rgb(251, 6, 6);
+}
+#reset:hover{
+    background-color: rgb(255, 251, 0);
+}
+
+ @media screen and (max-width: 400px){
+
+    img{
+        display: block;
+        height: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #box-number{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: aliceblue;
+        border-radius: 6px;
+        padding-left: 20px;
+
+        font-weight: bold;
+        font-size: 35px;
+        width: 300px;
+
+        margin-top: -30px;
+
+    }
+    
+    
+ }
+
+
+ 
+
+
+
+
+
